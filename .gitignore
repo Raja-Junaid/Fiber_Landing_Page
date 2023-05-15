@@ -1,0 +1,8 @@
+# Ignoring Node Modules
+node_modules/*
+
+# Ignoring Design Folder
+Design/*
+
+# Ignoring Dist Folder
+dist/*
