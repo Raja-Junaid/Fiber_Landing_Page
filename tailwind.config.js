@@ -12,6 +12,7 @@ module.exports = {
         richBlack: "#222222",
         lightGray: "#555555",
         veryLightGray: "#eeeeee",
+        Silver: "#dddddd",
       },
 
       gridTemplateColumns: {
