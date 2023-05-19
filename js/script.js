@@ -19,3 +19,14 @@ navMenu.addEventListener("click", function () {
   navMenu.classList.remove("flex");
   document.body.classList.remove("no-scroll");
 });
+
+// Progress bar
+
+const progessBarEl = document.getElementById("progress-bar");
+
+window.addEventListener("scroll", () => {
+  let height = document.body.scrollHeight - window.innerHeight;
+  let scrollPosition = document.documentElement.scrollTop;
+  let width = (scrollPosition / height) * 100;
+  progessBarEl.style.width = `${width}%`;
+});

@@ -21,7 +21,8 @@
       rel="stylesheet"
     />
   </head>
-  <body class="">
+  <body class="overflow-x-hidden">
+    <div class="progress-bar" id="progress-bar"></div>
     <div class="w-screen h-[126vh] bg-offWhite md:w-screen md:h-screen">
       <!--============================== NAVBAR ==============================-->
       <nav
@@ -125,7 +126,9 @@
 
     <!--======================== FEATURED SECTION ==========================-->
     <section class="bg-White">
-      <div class="container mx-auto px-8 py-14 md:py-20 md:px-0 lg:px-14">
+      <div
+        class="container mx-auto px-8 py-14 md:py-20 md:pb-16 md:px-0 lg:px-14"
+      >
         <p class="text-darkPurple text-lg font-bold mb-3">Why Fiber?</p>
         <h1 class="text-Black text-4xl font-bold block md:hidden"
           >A good portfolio means good employability.</h1
@@ -199,7 +202,7 @@
     <!--======================= TESTIMONIAL SECTION ========================-->
     <section>
       <div
-        class="grid grid-cols-1 container mx-auto px-8 py-8 md:py-2 md:pb-28 md:px-0 lg:pl-14 md:grid-cols-3"
+        class="grid grid-cols-1 container mx-auto px-8 py-8 md:py-4 md:pb-24 md:px-0 lg:pl-14 md:grid-cols-3"
       >
         <div class="border border-gray-300 p-6 rounded-lg mb-9 md:mb-0 md:mr-9">
           <div class="flex mb-4">
@@ -268,6 +271,52 @@
             class="hidden md:block px-7 py-4 text-darkPurple border border-gray-300 text-lg font-bold rounded-md bg-White w-full transition-all ease-in-out"
             >View Janice's Portfolio</button
           >
+        </div>
+      </div>
+    </section>
+    <!--====================================================================-->
+
+    <!--============================== FOOTER ==============================-->
+    <section>
+      <div
+        class="grid grid-cols-1 mx-auto px-8 py-16 bg-offWhite md:grid-cols-custom md:space-y-0 lg:px-24 lg:items-center"
+      >
+        <div class="mr-16 w-full lg:w-[70%]">
+          <h4 class="text-2xl font-bold mb-2">Fiber</h4>
+          <p class="text-lg text-dimGray mb-6 lg:mb-8"
+            >With Fiber, you can setup your own personal portfolio in minutes
+            with dozens of premade, beautiful templates.</p
+          >
+          <p class="text-lg text-dimGray">Made with ❤ in the UK.</p>
+        </div>
+        <div
+          class="grid grid-cols-2 gap-12 gap-x-20 mt-14 md:grid-cols-4 md:mt-0 lg:gap-x-12 lg:gap-0"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Sitemap</p>
+            <p class="text-lg text-dimGray mb-1">Homepage</p>
+            <p class="text-lg text-dimGray mb-1">Pricing</p>
+            <p class="text-lg text-dimGray mb-1">Testimonials</p>
+            <p class="text-lg text-dimGray mb-1">Features</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Resources</p>
+            <p class="text-lg text-dimGray mb-1">Support</p>
+            <p class="text-lg text-dimGray mb-1">Contact</p>
+            <p class="text-lg text-dimGray mb-1">FAQ</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Company</p>
+            <p class="text-lg text-dimGray mb-1">About</p>
+            <p class="text-lg text-dimGray mb-1">Customers</p>
+            <p class="text-lg text-dimGray mb-1">Blog</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Resources</p>
+            <p class="text-lg text-dimGray mb-1">HackerNews</p>
+            <p class="text-lg text-dimGray mb-1">Reddit</p>
+            <p class="text-lg text-dimGray mb-1">Twitter</p>
+          </div>
         </div>
       </div>
     </section>
